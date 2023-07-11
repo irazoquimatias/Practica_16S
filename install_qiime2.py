@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
         run_and_check(
             ["conda", "env", "update", "-n", "base", "--file",
-             "qiime2-2020.8-py36-linux-conda.yml"],
+             "qiime2-2023.5-py38-linux-conda.yml"],
             "To activate this environment, use",
             ":mag: Installing Qiime 2. This may take a little bit.\n :clock1:",
             "could not install Qiime 2 :sob:",
